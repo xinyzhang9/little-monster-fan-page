@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<title>monster</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		img{
+			transition: all 400ms 0ms ease-in-out;
+			border-radius: 10px;
+		}
+		#introVideo,#neck,#hulu{
+			border-radius: 10px;
+		}
+		.col-md-3{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+
+
+		.crossRotate:hover {
+		    -webkit-transform:rotate(5deg) scale(1.1);
+		}
+	</style>
+</head>
+<body>
+	<div class = "container">
+		<h1>Little Monster 刘炅然</h1>
+		<h5>made by 阳哥@xinyzhang9@gmail.com</h5>
+		<div id = "intro">
+			<h4>tell me about yourself</h4>
+			<video id = "introVideo"src="video/intro.mp4" width = "480" controls></video>
+		</div>
+		<div id = "neck">
+			<h4>why are you so cute</h4>
+			<video id = "neck"src="video/neck.mp4" width = "480" controls></video>
+		</div>
+		<div id = "sing">
+			<h4>you make me wanner sing</h4>
+			<video id = "hulu"src="video/hulu.mp4" width = "480" controls></video>
+		</div>
+		<div id = "paint">
+			<h4>you are from painting</h4>
+			<img id = "img" src="img/monster.jpg" alt="jpg" width = "480">
+		</div>
+		<div id = "gallary">
+			<h4>best gallary repeats forever</h4>
+			<div id = "gallary" class = "col-md-12 container-fluid">
+				<div class = "row">
+					<div class = "col-md-3">
+						<img src="img/img10.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img11.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img1.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+				</div>
+				
+				<div class = "row">
+					<div class = "col-md-3">
+						<img src="img/img7.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img8.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img12.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "col-md-3">
+						<img src="img/img4.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img5.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+					<div class = "col-md-3">
+						<img src="img/img3.jpg" alt="" width = "300" class = "crossRotate">
+					</div>
+				</div>
+
+
+				
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
